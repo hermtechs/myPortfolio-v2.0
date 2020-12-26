@@ -25,10 +25,10 @@ function scrollFunc(){
     const logo = document.querySelector('.logo-txt');
     if (document.body.scrollTop>80 || document.documentElement.scrollTop>80){
         logo.innerText = '<devherbert>'
-        logo.style.fontSize = '1rem';
+        logo.style.fontSize = '1.2rem';
     }
     else {
         logo.innerText = '<devherbert/>';
-        logo.style.fontSize = '1.2rem';
+        logo.style.fontSize = '1.4rem';
     }
 }
