@@ -356,13 +356,13 @@ strong{
   position: sticky;
   z-index: -2;
   bottom: -.1px;
-  max-width: 600px;
+  max-width: 500px;
  }
  .about-me-intro{
    max-width: 700px;
  }
  .intro-paragraph{
-  background-color: #eff1ec; 
+  background-color: #eee; 
  }
  @media(min-width:600px){
    .about-me-intro{
