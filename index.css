@@ -39,13 +39,14 @@ body{
     line-height: 1.6;
     font-family: var(--ff-primary);
     /* font-family: 'Open Sans', sans-serif; */
+    /* overflow-x: hidden; */
 }
 
 /*navigation*/
 .logo{
   max-width: 150px;
   user-select: none;
-  font-family: 'Cabin Sketch', cursive;
+  font-family: 'Cabin Sketch';
 
 }
 .logo a{
@@ -148,7 +149,9 @@ a:focus{
 /*Hi, I am Herbert section*/
 .intro{
 position: relative;
-top:3 em;
+/* top:3em; */
+max-width: 100%;
+/* overflow-x: hidden; */
 }
 img{
     display: block;
@@ -167,6 +170,7 @@ img{
   /*styling titles*/
 .section_title{
     margin-bottom: .25em; 
+    font-size: 2.25rem;
 }
 .sub-intro{
 font-size:1rem;
@@ -300,6 +304,35 @@ strong{
   background-color: #3f4144;
   padding: .4em;
 }
+.my__services .call-me-whatsapp{
+  color: var(--clr-light);
+  font-weight: lighter;
+  background-color: #3e6e4d;
+  padding: .1em;
+  border-radius: 8px;
+}
+.my__services .call-me-whatsapp:hover{
+  background-color: #2d422d;
+  padding: .12em;
+}
+
+.my__services .call-me-btn{
+  height:120px;
+  width: 80px;
+  border-radius: 8px;
+  background-color: #3e6e4d;
+  text-decoration: none;
+  color: var(--clr-light);
+  padding: .1em;
+  color: rgb(197, 184, 184);
+  font-weight: bold;
+  transition: 250ms;
+  user-select: none;
+}
+.my__services .call-me-btn:hover{
+  background-color: #2d422d;
+  padding: .12em;
+}
 .service h3{
   color:var(--clr-accent);
   text-align:center;
@@ -358,6 +391,9 @@ strong{
      grid-area: paragraph2;
   
    }
+ }
+ .section__subtitle--intro a{
+   color: #fff;
  }
  h5{
    padding: 0;
@@ -418,4 +454,12 @@ strong{
  /*Project section*/
  .project-description{
    max-width: 400px;
+ }
+ .project-links a{
+    text-decoration:none;
+    background-color: rgb(116, 116, 133);
+    text-align: center;
+    padding: .5rem;
+    opacity: .9;
+    color: #fff;
  }

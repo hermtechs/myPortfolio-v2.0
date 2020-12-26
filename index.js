@@ -25,25 +25,10 @@ function scrollFunc(){
     const logo = document.querySelector('.logo-txt');
     if (document.body.scrollTop>80 || document.documentElement.scrollTop>80){
         logo.innerText = '<devherbert>'
-        logo.style.fontSize = '1.3rem';
+        logo.style.fontSize = '1rem';
     }
     else {
         logo.innerText = '<devherbert/>';
-        logo.style.fontSize = '1.5rem';
+        logo.style.fontSize = '1.2rem';
     }
 }
-
-//CHANGE INTRO SUBTITLE TEXT
-// const introSubTitle = document.querySelector('.intro-precise');
-// function ChangeSubTitle(){
-//     // const message1 = 'front-end developer';
-//     // const message2 = 'freelancer';
-//     // const message3 = 'web designer'
-//     const messages = ['front-end developer','web designer', 'freelancer'];
-//     messages.forEach((message=>{
-//        const container = [];
-//        container.push(message) 
-    
-//     }))
-// }
-// ChangeSubTitle();
